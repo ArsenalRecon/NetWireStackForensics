@@ -1,0 +1,51 @@
+97 - default keep alive.
+98 - init of keep alive when regular ping is deactivated.
+99 - registered
+9b - create(d) socket (every new connection)
+9d - update (after ab+ac+ad+9b)
+9f - close
+a0 - execute reconnect
+a1 - uninstall
+a2 - hostid modification
+a3 - quick remote download
+a4 - List volumes and type.
+a6 - File explorer, Open directory / directory listing (C:\*.*) -> length 6, (also used for results from agent to c2)
+a8 - Search files - execute
+a9 - Search files - results
+ab - File explorer, file action (upload vs download) -> len eq full path + 5
+ac - data to file (depends on direction (agent vs v2) and upload vs download)
+ad - close file
+af - file attribute action (hidden/visible)
+b0 - rename file
+b1 - delete file
+b2 - new folder
+b6 - create remote shell
+b7 - send data to shell
+b8 - terminate remote shell
+ba - system information general
+bc - system information logon sessions
+be - process listing
+c0 - terminate process
+c1 - application windows open/handles listing
+c2 - modify application windows (rename, show/hide, close)
+c3 - remote download execute
+c4 - remote download result
+c9 - screenshot execute
+ca - screenshot transfer of result/image
+cb - screenshot close
+cc - keylogger logs start/open
+ce - keylogger log operation (browse, read, download)
+cf - keylogger log delete
+d0 - keylogger log open
+d1 - keylogger log send data
+d2 - keylogger log close
+d3 - password recovery browsers
+d5 - password recovery messengers
+d7 - password recovery email clients
+df - hasher execute
+e1 - hasher results
+e2 - hasher abort/stop/done
+e3 - list active ports
+e5 - registry open/browse
+e7 - registry key operation (create/delete)
+e8 - system information disks

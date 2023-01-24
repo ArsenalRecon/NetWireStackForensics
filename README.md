@@ -11,8 +11,8 @@ We have analyzed NetWire 1.7 on the following operating systems:
 ### NwStacks
 A PoC tool for scanning and analyzing NetWire 1.7 stacks.
 
-#### Latest build
-
+#### Latest builds
+https://github.com/ArsenalRecon/NetWireStackForensics/releases
 
 ### SampleFilesUploaded
 The files used for uploads during genration of test material.

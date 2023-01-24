@@ -34,3 +34,5 @@ Collection of decrypted payloads and associated controls.
 ### NetWire1.7-controls.txt
 List of valid controls.
 
+### License
+MIT

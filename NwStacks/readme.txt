@@ -10,6 +10,9 @@ Requirements
 The scan mechanism uses a powershell script, and needs to have execution of scripts enabled. This can be achieve with a command such as;
 powershell Set-ExecutionPolicy unrestricted
 
+Builds
+Builds are available at https://github.com/ArsenalRecon/NetWireStackForensics/releases
+
 Syntax:
 nwstacks /Input: /WinVersion: /Hostname: /DumpAll
 * Input: Full path to the input file to parse.

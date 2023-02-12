@@ -10,6 +10,7 @@ a2 - hostid modification
 a3 - quick remote download
 a4 - List volumes and type.
 a6 - File explorer, Open directory / directory listing (C:\*.*) -> length 6, (also used for results from agent to c2)
+a7 - File explorer, Error browsing -> for example access denied.
 a8 - Search files - execute
 a9 - Search files - results
 ab - File explorer, file action (upload vs download) -> len eq full path + 5

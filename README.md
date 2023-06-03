@@ -1,5 +1,7 @@
 # Project for NetWire Stack Forensics.
 
+Please read the article "Forensic Analysis of the NetWire Stack" published in Digital Forensics Magazine Issue 52 (https://www.digitalforensicsmagazine.com) to understand this project.
+
 We have analyzed NetWire 1.7 on the following operating systems:
 * Windows 7 32-bit
 * Windows 7 64-bit
